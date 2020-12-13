@@ -362,6 +362,7 @@ li.li_logo{
 }
 
 /* Our Team*/
+/*
 .team {
   background: #f9e6ac;
   padding: 5px;
@@ -371,13 +372,22 @@ li.li_logo{
   color: black;
   text-align: left;
 }
-
+*/
 
 .jhon-description{
+  background: #f9e6ac;
   width: 350px;
   height: 237px;
-  margin-left: -4px ;
-  margin-top: -5px ;
+
+  border: #f9e6ac 1px solid;
+}
+
+.bob-description{
+  background: #f9e6ac;
+  width: 350px;
+  height: 237px;
+  
+  margin-top: -3px ;
   border: #f9e6ac 1px solid;
 }
 
@@ -585,38 +595,6 @@ a {
   width: 100%;
 }
 
-/* SPACING (always overwrite existing styles) */
-.m-top-0 {
-  margin-top: 0 !important;
-}
-
-.m-top-25 {
-  margin-top: 25px !important;
-}
-
-.p-top-0 {
-  padding-top: 0 !important;
-}
-
-.p-top-25 {
-  padding-top: 25px !important;
-}
-
-.p-top-50 {
-  padding-top: 50px !important;
-}
-
-.p-bottom-0 {
-  padding-bottom: 0 !important;
-}
-
-.p-bottom-25 {
-  padding-bottom: 25px !important;
-}
-
-.p-bottom-50 {
-  padding-bottom: 50px !important;
-}
 
 
 @media all and (max-width: 600px) {
@@ -651,6 +629,46 @@ a {
   .ourservices{
 	  margin: 30px 0 0;
   }
+  
+  .flex-item3,.flex-item4,.flex-item5 {
+  background: #f9e6ac;
+  padding: 5px;
+  width: 350px;
+  height: 500px;
+  margin-top: 10px;
+  color: black;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.imgstyle2{
+  width: 350px;
+}
+  
+.blackbutton1{
+	color: white;
+    font-size: 15px;
+    height: 80px;
+    width: 320px;
+    background-color: black;
+    line-height: 80px;
+    text-align: center;
+    margin: 10px;
+}
+
+.jhon-description{
+	height:100%;
+}
+.bob-description{
+	height:100%;
+}
+ 
+  .flex-container {flex: 3 0px;}
+  .jhon-img  { order: 1; } 
+  .jhon-description    { order: 2; }
+  .bob-img { order: 3; }
+  .bob-description  { order: 4; }
+  
 }
 
 
