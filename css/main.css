@@ -24,9 +24,33 @@
   color: white;
 }
 
+.search{
+  max-width: 1400px;
+  padding: 20px 20px 0px;
+  display: flex;
+  box-sizing: border-box;
+  height: 40px;
+  justify-content: center;
+}
+
+.searchTerm {
+width: 100%;
+border-right: none;
+padding: 4px;
+height: 20px;
+border-radius: 5px 0 0 5px;
+outline: none;
+}
 
 
 
+.searchButton {
+width: 40px;
+height: 34px;
+color: #c78c06;
+border: 1px solid #c78c06;
+background-color: black;
+}
  
 li.li_logo{
     background-color : #c68d13;
